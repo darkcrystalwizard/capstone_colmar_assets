@@ -1,0 +1,28 @@
+html {
+}
+
+header {
+    height: 64px;
+    font-size: 32px;
+    padding-left: 24px;
+    color: #4A4A4A;
+    margin-right: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav span {
+}
+
+a {
+    text-decoration: none;
+    margin: 16px;
+   color: #4F4F4F; 
+}
+
+.push {
+    margin-left: auto;
+}
