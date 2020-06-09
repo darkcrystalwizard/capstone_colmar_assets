@@ -1,20 +1,25 @@
-html {
+* {
+    margin: 0;
+    padding: 0;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
 header {
     height: 64px;
     font-size: 32px;
     padding-left: 24px;
     color: #4A4A4A;
     margin-right: 24px;
+    margin-top: 10px;
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
-}
-
-nav span {
+    align-content: space-between;
 }
 
 a {
@@ -25,4 +30,42 @@ a {
 
 .push {
     margin-left: auto;
+}
+
+/* Learn Something */
+
+.learn {
+    background: #D8D8D8;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#banner {
+   margin: 32px 24px;
+   width: 60%;
+   float: left;
+}
+
+
+.learn1 {
+margin: 5%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1, h2 {
+    color: #4A4A4A;
+
+}
+
+button {
+    background-color: #4A4A4A;
+    color: white;
+    width: 25%;
+    height: 3rem;
+    padding: 8px 0;
 }
