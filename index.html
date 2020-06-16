@@ -9,13 +9,19 @@
 <body>
     <!--Header-->
     <header>
-        <nav>
+        <nav class="desktop">
             <img  src="./resources/images/ic-logo.svg" alt="lion">
             <span><b>COLMAR</b>ACADEMY</span>
             <span class="push"><a href="#">On campus</a></span>
             <span><a href="#">Online</a></span>
             <span><a href="#">For companies</a></span>
             <span><a href="#">Sign in</a></span>
+        </nav>
+        <nav class="mobile">
+            <img  src="./resources/images/ic-logo.svg" alt="lion">
+            <span><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="on campus"></a></span>
+            <span><a href="#"><img src="./resources/images/ic-online.svg" alt="Online"></a></span>
+            <span><a href="#"><img src="./resources/images/ic-login.svg" alt="ic-login"></a></span>
         </nav>
     </header>
 
@@ -42,6 +48,34 @@
                 <br>
                 <p class="signature">Emanuel, Sr Stratesgist at Hiring.com</p>
             </div>
+            <div class="doesnt-hurt-sidebar">
+                <div class="date">
+                    <img class="img-date" src="./resources/images/information-orientation.jpg" alt="orientation">
+                    <div class="flex-center-column">
+                        <span class="odate">Orientation date</span>
+                        <span class="odate-times">Tue 10/11 & Wed 10/12 8am-3pm</span>
+                        <a class="read-more" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="date">
+                    <img class="img-date" src="./resources/images/information-campus.jpg" alt="campus information">
+                    <div class="flex-center-column">
+                        <span class="odate">Our campus</span>
+                        <span class="odate-times">Find which campus is close by you</span>
+                        <a class="read-more" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="date lecture">
+                    <img class="img-date" src="./resources/images/information-guest-lecture.jpg" alt="campus information">
+                    <div class="flex-center-column">
+                        <span class="odate">Our guest lecture</span>
+                        <span class="odate-times">Join a keynote with Oliver Sack about music in medical treatment</span>
+                        <a class="read-more" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="doesnt-hurt-mobile">
             <div class="doesnt-hurt-sidebar">
                 <div class="date">
                     <img class="img-date" src="./resources/images/information-orientation.jpg" alt="orientation">
@@ -127,6 +161,17 @@
                 </div>
             </div>
         </div>
+        <div class="start-learning-mobile">
+            <h2>Start Learning</h2>
+            <div class="slm-container">
+                <div>Software engineering</div>
+                <div>Computer art</div>
+                <div>Design</div>
+                <div>Data</div>
+                <div>Business</div>
+                <div>Marketing</div>
+            </div>
+        </div>
 
         <!--Thesis exhibit-->
 
@@ -150,15 +195,18 @@
                 </div>
             </div>
         </div>
+        <div class="thesis-exhibit-mobile">
+            <video src="./resources/videos/thesis.mp4" controls></video>
+        </div>
 
         <div class="reimagine">
             <h2>Reimagine urban</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nisi laudantium vitae aliquam temporibus! Possimus sed illo autem neque soluta pariatur eos distinctio animi excepturi! Nam eius sapiente eveniet mollitia.</h3>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nisi laudantium vitae aliquam temporibus! Possimus sed illo autem neque soluta pariatur eos distinctio animi excepturi! Nam eius sapiente eveniet mollitia.</h5>
         </div>
     </main>
     <footer>
         <p>&copy 2016 Colmar Academy. All rights reserved</p>
-        <p class="push">Terms</p>
+        <p class="push terms">Terms</p>
         <p class="privacy">Privacy</p>
     </footer>
 </body>
